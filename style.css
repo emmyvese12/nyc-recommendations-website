@@ -1,0 +1,281 @@
+.wow {
+saccordion-button collapsedoli
+width: 100px;
+}
+
+html{
+  scroll-behavior: smooth;
+  /*Adds smooth scrolling instead of snapping to element*/
+}
+
+
+#scrolltoM{
+  scroll-margin-block-start: 110px;
+  /*sets the scroll margins of an element in the block dimension.*/
+  /*Adds margin to the top of the viewport*/
+  
+  scroll-margin-block-end: 110px;
+  /*Adds margin to the bottom of the viewport*/
+}
+
+#scrolltoQ{
+  scroll-margin-block-start: 110px;
+  /*Adds margin to the top of the viewport*/
+  
+  scroll-margin-block-end: 110px;
+  /*Adds margin to the bottom of the viewport*/
+}
+
+#scrolltoBk{
+  scroll-margin-block-start: 110px;
+  /*Adds margin to the top of the viewport*/
+  
+  scroll-margin-block-end: 110px;
+  /*Adds margin to the bottom of the viewport*/
+}
+
+#scrolltoBx{
+  scroll-margin-block-start: 110px;
+  /*Adds margin to the top of the viewport*/
+  
+  scroll-margin-block-end: 110px;
+  /*Adds margin to the bottom of the viewport*/
+}
+
+#scrolltoG{
+  scroll-margin-block-start: 110px;
+  /*Adds margin to the top of the viewport*/
+  
+  scroll-margin-block-end: 110px;
+  /*Adds margin to the bottom of the viewport*/
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("main-nyc-image.jpg");
+
+  /* Set a specific height */
+  min-height: 600px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.container-img{
+  position: relative;
+  text-align: center;
+  font-size: 50px;
+}
+
+.centered {
+	position: absolute;
+	top: 52%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	/*background-color: #de956a;*/
+	text-shadow: 8px 8px 8px #782d0b;
+  font-weight: bold;
+  color: white;
+  font-size: 53px;
+  font-family: "Tahoma", sans-serif;
+	}
+
+h1{
+	text-align: center;
+  font-size: 40px;
+}
+
+h3{
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-color: #d17b24; 
+  text-decoration-thickness: 2px;
+  font-size: 30px;
+}
+
+.card{
+	text-align: center;
+  font-style: italic;
+}
+
+.accordion-body{
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+}
+.btn-btn-link{
+  text-align: center;
+  font-size: 25px;
+  color: #c45708;
+}
+
+
+.body{
+   padding: 0px;
+}
+
+body{
+  font-family: 'Merriweather', serif;
+  background-color: white;
+  padding: 0px;
+}
+
+.container{
+   padding: 0px;
+}
+
+.row{
+  padding: 5px;
+ }
+
+.col-6{
+  padding: 15px;
+ }
+
+.card{
+  text-align: center;
+  font-style: italic;
+ }
+
+.card-img-top{
+  height: 600px;
+}
+
+.card-img-top-new{
+  width: 475px;
+  height: 300px;
+}
+
+.accordion-body{
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+  background-color: #f2b88d;
+  
+}
+
+span.emoji {
+  font-size: 35px;
+  vertical-align: middle;
+  line-height: 2;
+}
+
+.navbar-brand{
+  margin-left: 15px;
+}
+
+#navbarNav{
+  background-color: #eb9742;
+}
+
+.nav-link:hover{
+  background-color: #d17b24;
+  height: 40px;
+}
+
+.nav-item{
+  padding: 15px;
+  font-size: 18px;
+}
+
+#collapseOne{
+  background-color: #ffe1b8;
+
+}
+
+#collapseTwo{
+  background-color: #ffe1b8;
+}
+
+#collapseThree{
+  background-color: #ffe1b8;
+
+}
+
+#collapseFour{
+  background-color: #ffe1b8;
+}
+
+#flush-collapseOne{
+  border: solid;
+  border-color: #eb721a;
+}
+
+#flush-collapseOne-two{
+  border: solid;
+  border-color: #eb721a;
+}
+
+#flush-collapseOne-three{
+  border: solid;
+  border-color: #eb721a;
+}
+
+#flush-collapseTwo{
+  border: solid;
+  border-color: #eb721a;
+}
+
+#flush-collapseTwo-two{
+  border: solid;
+  border-color: #eb721a;
+}
+
+#flush-collapseTwo-three{
+  border: solid;
+  border-color: #eb721a;
+}
+
+#flush-collapseThree{
+  border: solid;
+  border-color: #eb721a;
+}
+
+#flush-collapseThree-two{
+  border: solid;
+  border-color: #eb721a;
+}
+
+#flush-collapseThree-three{
+  border: solid;
+  border-color: #eb721a;
+}
+
+#flush-collapseFour{
+  border: solid;
+  border-color: #eb721a;
+}
+
+#flush-collapseFour-two{
+  border: solid;
+  border-color: #eb721a;
+}
+
+#flush-collapseFour-three{
+  border: solid;
+  border-color: #eb721a;
+}
+
+h5{
+  color: #401d03;
+  font-weight: bold;
+  opacity: 0.7;
+  text-shadow: 8px 8px 8px silver;
+  background-color: ghostwhite;
+}
+
+.caption-description{
+  color: #401d03;
+  opacity: 0.7;
+  text-shadow: 8px 8px 8px silver;
+  background-color: ghostwhite;
+}
+
+.authors{
+  background-color: gray;
+  padding: 50px;
+}
